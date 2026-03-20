@@ -20,7 +20,7 @@ function typedObject(schema: Record<string, string>): Record<string, Primitive> 
         throw new Error(`Cannot set ${typeof value} for ${key}`);
       }
 
-      return Reflect.set(target, key, value);
+      return Reflect.set(target, key, value, receiver);
     }
   })
 }
