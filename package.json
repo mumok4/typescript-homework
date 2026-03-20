@@ -1,0 +1,23 @@
+{
+  "name": "front-ts-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumok4/typescript-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mumok4/typescript-homework/issues"
+  },
+  "homepage": "https://github.com/mumok4/typescript-homework#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
